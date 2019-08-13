@@ -1,0 +1,36 @@
+itemGroup.MatrixWorld_tab=Предметы
+
+item.MatrixWorld_1ruble.name=1 рубль
+item.MatrixWorld_2ruble.name=2 рубля
+item.MatrixWorld_5ruble.name=5 рублей
+item.MatrixWorld_10ruble.name=10 рублей
+item.MatrixWorld_50ruble.name=50 рублей
+item.MatrixWorld_100ruble.name=100 рублей
+item.MatrixWorld_200ruble.name=200 рублей
+item.MatrixWorld_500ruble.name=500 рублей
+item.MatrixWorld_1000ruble.name=1000 рублей
+item.MatrixWorld_2000ruble.name=2000 рублей
+item.MatrixWorld_5000ruble.name=5000 рублей
+#//https://github.com/DannikInfo/CustomDebug-Minecraft-
+customdebug.usemem=Использованная ОЗУ
+customdebug.allocmem=Доступная ОЗУ
+customdebug.biome=Биом
+customdebug.light=Уровень освещения
+customdebug.rayTrace=Сторона света
+customdebug.east=Восток
+customdebug.west=Запад
+customdebug.south=Юг
+customdebug.north=Север
+customdebug.health=Здоровье
+customdebug.attackDamage=Урон атаки
+customdebug.movementSpeed=Скорость движения
+customdebug.distance=Дистанция
+customdebug.temperature=Температура
+customdebug.pos=Позиция
+key.redraw=Обновить ресурсы
+key.settings=Настройки
+customdebug.on=Вкл
+customdebug.off=Выкл
+customdebug.coords=Координаты
+customdebug.memory=Память
+customdebug.dev=Режим разработки
