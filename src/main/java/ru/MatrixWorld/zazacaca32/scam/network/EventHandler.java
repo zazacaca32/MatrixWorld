@@ -56,13 +56,11 @@ public class EventHandler{
         String alocmem = StatCollector.translateToLocal("customdebug.allocmem") + ": " + j5 * 100L / i5 + "% - " + j5 / 1024L / 1024L + "MB / " + i5 / 1024L / 1024L + "MB";
 
         GL11.glPushMatrix();
-        fontrenderer.drawStringWithShadow(Color.ORANGE+"[MatrixWorld]", 2, 2, 16777215);
-        fontrenderer.drawStringWithShadow("Minecraft 1.7.10 " + mc.debug, 2, 2, 16777215);
-        fontrenderer.drawStringWithShadow("x: " + (int) this.mc.thePlayer.posX , 2, 12, 16777215);
-        fontrenderer.drawStringWithShadow("y: " + (int) this.mc.thePlayer.posY , 2, 22, 16777215);
-        fontrenderer.drawStringWithShadow("z: " + (int) this.mc.thePlayer.posZ , 2, 32, 16777215);
-        fontrenderer.drawStringWithShadow(StatCollector.translateToLocal("customdebug.biome") + ": " + chunk.getBiomeGenForWorldCoords(j3 & 15, l3 & 15, this.mc.theWorld.getWorldChunkManager()).biomeName, 2, 42, 16777215);
-        fontrenderer.drawStringWithShadow(StatCollector.translateToLocal("customdebug.light") + ": " + chunk.getSavedLightValue(EnumSkyBlock.Block, j3 & 15, k3, l3 & 15), 2, 52, 16777215);
+        fontrenderer.drawStringWithShadow("[MatrixWorld]", 2, 2, 0xFF8000);
+        fontrenderer.drawStringWithShadow( mc.debug, 2, 12, 16777215);
+        fontrenderer.drawStringWithShadow("x: " + (int) this.mc.thePlayer.posX + " y: " + (int) this.mc.thePlayer.posY+ " z: " + (int) this.mc.thePlayer.posZ , 2, 22, 16777215);
+        fontrenderer.drawStringWithShadow(StatCollector.translateToLocal("customdebug.biome") + ": " + chunk.getBiomeGenForWorldCoords(j3 & 15, l3 & 15, this.mc.theWorld.getWorldChunkManager()).biomeName, 2, 32, 16777215);
+        fontrenderer.drawStringWithShadow(StatCollector.translateToLocal("customdebug.light") + ": " + chunk.getSavedLightValue(EnumSkyBlock.Block, j3 & 15, k3, l3 & 15), 2, 42, 16777215);
         fontrenderer.drawStringWithShadow(usemem, k - fontrenderer.getStringWidth(usemem), 2, 16777215);
         fontrenderer.drawStringWithShadow(alocmem, k - fontrenderer.getStringWidth(alocmem), 12, 16777215);
         GL11.glPopMatrix();

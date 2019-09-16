@@ -4,6 +4,7 @@ package ru.MatrixWorld.zazacaca32.scam.init;
 import net.minecraft.item.Item;
 import ru.MatrixWorld.zazacaca32.scam.MatrixWorld;
 import ru.MatrixWorld.zazacaca32.scam.items.BomjItems;
+import ru.MatrixWorld.zazacaca32.scam.items.CaseItem;
 
 public final class ModItems {
 
@@ -32,6 +33,6 @@ public final class ModItems {
         ruble1000Item = new BomjItems(MatrixWorld.tab, "1000ruble");
         ruble2000Item = new BomjItems(MatrixWorld.tab, "2000ruble");
         ruble5000Item = new BomjItems(MatrixWorld.tab, "5000ruble");
-        caseItem = new BomjItems(MatrixWorld.tab, "case");
+        caseItem = new CaseItem(MatrixWorld.tab, "case");
     }
 }
